@@ -21,7 +21,7 @@ div#name {
     left: 200px;
     font-size: 70px;
     letter-spacing: 2px;
-    width: 700px;
+    width: 100%;
     font-weight: 600;
     color: #2e2e2e;
     word-spacing: 10px;
@@ -32,6 +32,7 @@ div#education {
     top: 0px;
     font-size: 25px;
     color: #2e2e2e;
+    width: 100%;
 }
 
 div#job {
@@ -39,6 +40,7 @@ div#job {
     top: 45px;
     font-size: 25px;
     color: #2e2e2e;
+    width: 100%;
 }
 
 div#cs-tag {
@@ -80,6 +82,7 @@ div#location-text {}
 
 .detailed-intro {
     position: relative;
+    width: 100%;
 }
 
 div#cs {
@@ -98,17 +101,19 @@ div#location {
     position: relative;
     top: 450px;
     left: 200px;
-    width: 800px;
+    width: 100%;
 }
 
 .main-intro-container {
     position: relative;
     top: 0px;
+    width: 100%;
 }
 
 .detailed-intro-container {
     position: relative;
     top: 100px;
+    width: 100%;
 }
 
 .footer {
