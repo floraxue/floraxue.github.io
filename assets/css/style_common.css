@@ -2,6 +2,9 @@ body {
     overflow: scroll;
     margin: 0px;
     font-family: "Lato";
+    -webkit-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 a {
