@@ -94,7 +94,7 @@ div#cards-container {
     display: inline-block;
     position: absolute;
     top: 100px;
-    right: 100px;
+    left: 500px;
 }
 
 .card-box {
