@@ -1,0 +1,117 @@
+
+
+li#home {
+    /* border-bottom: #6FD6FF solid 2px; */
+    color: #8AC8E9;
+}
+
+.page {
+    background: url('../img/background.jpg') no-repeat 0px 0px;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 680px;
+    /* border-bottom: #8AC8E9 solid 2px; */
+}
+
+div#name {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    width: 700px;
+    font-weight: 600;
+    color: #2e2e2e;
+    word-spacing: 10px;
+}
+
+div#education {
+    position: absolute;
+    top: 0px;
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+div#job {
+    position: absolute;
+    top: 45px;
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+div#cs-tag {
+    background: url(../img/code.png);
+    background-size: 100%;
+    width: 20px;
+}
+
+div#hobby-tag {
+    background: url(../img/love.png);
+    background-size: 100%;
+    top: 2px;
+}
+
+div#location-tag {
+    background: url(../img/location.png);
+    background-size: 100%;
+    top: 2px;
+}
+
+div#location-text {}
+
+.intro-tag-container {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+}
+
+.intro-text-container {
+    display: inline-block;
+    color: #2e2e2e;
+    word-spacing: 2px;
+    position: absolute;
+    left: 27px;
+    font-size: 14px;
+    top: 2px;
+}
+
+.detailed-intro {
+    position: relative;
+}
+
+div#cs {
+    top: 0px;
+}
+
+div#hobby {
+    top: 25px;
+}
+
+div#location {
+    top: 50px;
+}
+
+.intro {
+    position: relative;
+    top: 450px;
+    left: 200px;
+    width: 800px;
+}
+
+.main-intro-container {
+    position: relative;
+    top: 0px;
+}
+
+.detailed-intro-container {
+    position: relative;
+    top: 100px;
+}
+
+.footer {
+    top: 680px;
+}
+

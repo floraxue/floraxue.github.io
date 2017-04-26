@@ -1,0 +1,253 @@
+
+li#projects {
+    /* border-bottom: #6FD6FF solid 2px; */
+    color: #8AC8E9;
+}
+
+.page {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 1650px;
+    text-align: center;
+    /*background: url('../img/campanile.jpg') no-repeat center;
+    background-size: cover;*/
+}
+
+div#time-text-container {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+}
+
+.time-text {
+    color: #424242;
+    font-size: 18px;
+    width: 200px;
+}
+
+div#bt-time {
+    top: 350px;
+    position: absolute;
+}
+
+div#bids-time {
+    position: absolute;
+    top: 700px;
+}
+
+div#bookselves-time {
+    position: absolute;
+    top: 1050px;
+}
+
+div#timeline-container {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    width: 20px;
+}
+
+div#time-line {
+    width: 3px;
+    height: 1330px;
+    background-color: lightblue;
+    float: right;
+    margin-right: 6px;
+}
+
+div#future-dot {
+    border: lightblue solid 2px;
+    background: none;
+    top: 0px;
+}
+
+.time-dot {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: lightblue solid 2px;
+    background-color: lightblue;
+}
+
+div#bt-dot {
+    position: absolute;
+    top: 350px;
+}
+
+div#future-dot {}
+
+div#bids-dot {
+    position: absolute;
+    top: 700px;
+}
+
+div#bookselves-dot {
+    position: absolute;
+    top: 1050px;
+}
+
+div#cards-container {
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.card-box {
+    width: 500px;
+    height: 294px;
+    margin: 50px 30px;
+    border-radius: 20px;
+    border: #CAE6F5 dotted 3px;
+}
+
+div#amazon-box {
+    background: url("../img/amazon.jpg") no-repeat center;
+    background-size: 90%;
+}
+
+.card-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    display: none;
+}
+
+div#amazon-header {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#bt-box {
+    background: url("../img/bt.png") no-repeat 0px 0px;
+    background-size: 100%;
+}
+
+div#bids-box {
+    background: url("../img/bids.png") no-repeat center;
+    background-size: 70%;
+}
+
+div#bookselves-box {
+    background: url("../img/bookselves.png") no-repeat center;
+    background-size: 30%;
+}
+
+.card-header {
+    color: white;
+}
+
+.card-subheader {
+    color: white;
+}
+
+.card-content {
+    color: white;
+}
+
+div#amazon-subheader {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+div#bt-header {
+    font-size: 24px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#bt-subheader {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+div#bt-content {
+    border-bottom: dotted white 2px;
+    display: inline-block;
+}
+
+div#bt-content:hover {
+    color: #8AC8E9;
+    border-bottom-color: #8AC8E9;
+}
+
+div#bids-header {
+    font-size: 26px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#bids-subheader {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+div#bids-content {
+    border-bottom: dotted white 2px;
+    display: inline-block;
+}
+
+div#bids-content:hover {
+    color: #8AC8E9;
+    border-bottom-color: #8AC8E9;
+}
+
+.gh-icon-container {
+    background: url("../img/gh-white.png") no-repeat 0px 0px;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 13px auto;
+}
+
+.gh-icon-container:hover {
+    background: url(../img/gh-blue.png) no-repeat 0px 0px;
+    background-size: 100%;
+}
+
+div#bookselves-header {
+    font-size: 28px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#bookselves-subheader {
+    font-size: 20px;
+    padding-bottom: 13px;
+}
+
+div#bookselves-content {
+    border-bottom: dotted white 2px;
+    display: inline-block;
+}
+
+div#bookselves-content:hover {
+    color: #8AC8E9;
+    border-bottom-color: #8AC8E9;
+}
+
+.footer {
+    top: 1650px;
+}
+
+/* ANIMATION */
+
+@keyframes resize {
+    0% { width: 0%; }
+    50% { width: 50%; }
+    100% { width: 100%; }
+}
+
+.animation {
+    animation: resize 1s ease 1;
+}
+
