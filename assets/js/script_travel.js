@@ -38,4 +38,8 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.back-to-top').click(function() {
+		$('body').scrollTop(0);						// 6th JS function
+	});
+
 });
