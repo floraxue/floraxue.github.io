@@ -16,14 +16,15 @@ li#projects {
 
 div#big-content-container {
     height: 100%;
-    width: 1200px;
+    width: 80%;
     margin: auto;
 }
 
 div#time-text-container {
     position: relative;
     top: 180px;
-    left: 8%;
+    left: 5%;
+    width: 30%
 }
 
 .time-text {
@@ -70,7 +71,7 @@ div#bookselves-time {
 div#timeline-container {
     position: relative;
     top: 158px;
-    left: 38%;
+    left: 35%;
     width: 20px;
 }
 
@@ -130,7 +131,7 @@ div#bookselves-dot {
 div#cards-container {
     position: relative;
     top: 110px;
-    left: 53%;
+    left: 50%;
     width: 570px;
 }
 
@@ -159,7 +160,6 @@ div#cards-container {
 }
 
 .card-header {
-    position: relative;
     color: white;
 }
 
