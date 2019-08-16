@@ -128,10 +128,9 @@ li.navbar-item {
 
 .footer {
     position: absolute;
-    /*top: 680px;*/
+    top: 100%;
     background-color: #F4F5F6;
     width: 100%;
-    /* border-top: #8AC8E9 solid 2px; */
 }
 
 ul {

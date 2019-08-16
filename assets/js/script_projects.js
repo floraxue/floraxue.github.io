@@ -23,6 +23,27 @@ $(document).ready(function(){
 		$('body').scrollTop(0);						// 6th JS function
 	});
 
+	$('#adept-box').mouseover(function() {
+		$('#adept-overlay').show();
+	});
+	$('#adept-box').mouseout(function() {
+		$('#adept-overlay').hide();
+	});
+
+	$('#linkedin-box').mouseover(function() {
+		$('#linkedin-overlay').show();
+	});
+	$('#linkedin-box').mouseout(function() {
+		$('#linkedin-overlay').hide();
+	});
+
+	$('#bdd-box').mouseover(function() {
+		$('#bdd-overlay').show();
+	});
+	$('#bdd-box').mouseout(function() {
+		$('#bdd-overlay').hide();
+	});
+
 	$('#amazon-box').mouseover(function() {
 		$('#amazon-overlay').show();
 		// $('#amazon-overlay').addClass('.animation');

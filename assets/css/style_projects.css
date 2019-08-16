@@ -8,17 +8,22 @@ li#projects {
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 1650px;
+    height: calc(350*7px + 250px);
     text-align: center;
     /*background: url('../img/campanile.jpg') no-repeat center;
     background-size: cover;*/
 }
 
+div#big-content-container {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
 div#time-text-container {
-    display: inline-block;
-    position: absolute;
-    top: 150px;
-    left: 120px;
+    position: relative;
+    top: 180px;
+    left: 8%;
 }
 
 .time-text {
@@ -27,41 +32,54 @@ div#time-text-container {
     width: 200px;
 }
 
+div#adpet-time {
+    top: calc(350*0px);
+    position: absolute;
+}
+
+div#linkedin-time {
+    top: calc(350*1px);
+    position: absolute;
+}
+
+div#bdd-time {
+    top: calc(350*2px);
+    position: absolute;
+}
+
+div#amazon-time {
+    top: calc(350*3px);
+    position: absolute;
+}
+
 div#bt-time {
-    top: 350px;
+    top: calc(350*4px);
     position: absolute;
 }
 
 div#bids-time {
     position: absolute;
-    top: 700px;
+    top: calc(350*5px);
 }
 
 div#bookselves-time {
     position: absolute;
-    top: 1050px;
+    top: calc(350*6px);
 }
 
 div#timeline-container {
-    display: inline-block;
-    position: absolute;
-    top: 150px;
-    left: 380px;
+    position: relative;
+    top: 158px;
+    left: 38%;
     width: 20px;
 }
 
 div#time-line {
     width: 3px;
-    height: 1330px;
+    height: calc(350*7px - 70px);
     background-color: lightblue;
     float: right;
     margin-right: 6px;
-}
-
-div#future-dot {
-    border: lightblue solid 2px;
-    background: none;
-    top: 0px;
 }
 
 .time-dot {
@@ -73,28 +91,47 @@ div#future-dot {
     background-color: lightblue;
 }
 
-div#bt-dot {
-    position: absolute;
-    top: 350px;
+div#future-dot {
+    border: lightblue solid 2px;
+    background: none;
+    top: calc(350*0px);
 }
 
-div#future-dot {}
+div#linkedin-dot {
+    position: absolute;
+    top: calc(350*1px);
+}
+
+div#bdd-dot {
+    position: absolute;
+    top: calc(350*2px);
+}
+
+div#amazon-dot {
+    position: absolute;
+    top: calc(350*3px);
+}
+
+div#bt-dot {
+    position: absolute;
+    top: calc(350*4px);
+}
 
 div#bids-dot {
     position: absolute;
-    top: 700px;
+    top: calc(350*5px);
 }
 
 div#bookselves-dot {
     position: absolute;
-    top: 1050px;
+    top: calc(350*6px);
 }
 
 div#cards-container {
-    display: inline-block;
-    position: absolute;
-    top: 100px;
-    left: 500px;
+    position: relative;
+    top: 110px;
+    left: 53%;
+    width: 570px;
 }
 
 .card-box {
@@ -105,11 +142,6 @@ div#cards-container {
     border: #CAE6F5 dotted 3px;
 }
 
-div#amazon-box {
-    background: url("../img/amazon.jpg") no-repeat center;
-    background-size: 90%;
-}
-
 .card-overlay {
     width: 100%;
     height: 100%;
@@ -117,29 +149,8 @@ div#amazon-box {
     border-radius: 20px;
     position: relative;
     text-align: center;
+    top: 0px;
     display: none;
-}
-
-div#amazon-header {
-    font-size: 28px;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 30px;
-}
-
-div#bt-box {
-    background: url("../img/bt.png") no-repeat 0px 0px;
-    background-size: 100%;
-}
-
-div#bids-box {
-    background: url("../img/bids.png") no-repeat center;
-    background-size: 70%;
-}
-
-div#bookselves-box {
-    background: url("../img/bookselves.png") no-repeat center;
-    background-size: 30%;
 }
 
 .card-header {
@@ -154,9 +165,82 @@ div#bookselves-box {
     color: white;
 }
 
+div#adept-box {
+    background: url("../img/adept.png") no-repeat center;
+    background-size: 50%;
+}
+
+div#adept-header {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#adept-subheader {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+div#linkedin-box {
+    background: url("../img/linkedin.png") no-repeat center;
+    background-size: 90%;
+}
+
+div#linkedin-header {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#linkedin-subheader {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+div#bdd-box {
+    background: url("../img/bdd.png") no-repeat center;
+    background-size: 90%;
+}
+
+div#bdd-header {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+div#bdd-subheader {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+div#bdd-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#amazon-box {
+    background: url("../img/amazon.jpg") no-repeat center;
+    background-size: 90%;
+}
+
+div#amazon-header {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
 div#amazon-subheader {
     font-size: 20px;
     padding-bottom: 10px;
+}
+
+div#bt-box {
+    background: url("../img/berkeleytime.png") no-repeat center;
+    background-size: 100%;
 }
 
 div#bt-header {
@@ -180,6 +264,11 @@ div#bt-content:hover {
     border-bottom-color: #8AC8E9;
 }
 
+div#bids-box {
+    background: url("../img/bids.png") no-repeat center;
+    background-size: 70%;
+}
+
 div#bids-header {
     font-size: 26px;
     padding-top: 100px;
@@ -201,6 +290,7 @@ div#bids-content:hover {
     border-bottom-color: #8AC8E9;
 }
 
+/* GitHub icon in BIDS content*/
 .gh-icon-container {
     background: url("../img/gh-white.png") no-repeat 0px 0px;
     background-size: 100%;
@@ -212,6 +302,11 @@ div#bids-content:hover {
 .gh-icon-container:hover {
     background: url(../img/gh-blue.png) no-repeat 0px 0px;
     background-size: 100%;
+}
+
+div#bookselves-box {
+    background: url("../img/bookselves.png") no-repeat center;
+    background-size: 30%;
 }
 
 div#bookselves-header {
@@ -236,8 +331,9 @@ div#bookselves-content:hover {
 }
 
 .footer {
-    top: 1650px;
+    top: calc(350*7px + 250px);
 }
+
 
 /* ANIMATION */
 
